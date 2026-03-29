@@ -175,11 +175,6 @@ finflow/
 
 ##  Setup Instructions
 
-### Clone Repository
-
-bash
-git clone https://github.com/cse-shivraj-jaiswal/sprint-loan-management-system.git
-
 
 ### Run Services in Order
 
