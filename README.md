@@ -215,37 +215,3 @@ mvn spring-boot:run
 Login → Apply Loan → Upload Docs → Submit → Admin Review → Decision → Notification
 ```
 
----
-
-## Development Roadmap
-
-* Day 1: Authentication & Setup
-* Day 2: Application Service
-* Day 3: Document Service
-* Day 4: Admin Workflow
-* Day 5: Notification System
-* Day 6: Testing & Validation
-
----
-
-## Future Enhancements
-
-* Credit Score Integration
-* EMI Calculator
-* SMS Notification (Twilio)
-* Kafka-based Event-Driven Architecture
-* AWS S3 for Document Storage
-* Dashboard Analytics
-
----
-
-## Learning Outcomes
-
-* Microservices architecture design
-* API Gateway implementation
-* JWT-based authentication
-* Inter-service communication
-* Real-world backend system design
-
-
-
