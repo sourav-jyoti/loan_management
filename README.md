@@ -1,15 +1,7 @@
-# 🚀 FinFlow Loan Management System
+# FinFlow Loan Management System
 
-![Java](https://img.shields.io/badge/Java-17-orange)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-green)
-![Microservices](https://img.shields.io/badge/Architecture-Microservices-blue)
-![Security](https://img.shields.io/badge/Security-JWT-red)
-![Database](https://img.shields.io/badge/Database-MySQL%20%7C%20PostgreSQL-blueviolet)
-![Build](https://img.shields.io/badge/Build-Maven-C71A36)
-![Status](https://img.shields.io/badge/Project-Active-success)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-## 📌 Overview
+## Overview
 
 **FinFlow** is a scalable, microservices-based loan management system that enables users to apply for loans, upload documents, track application status, and receive real-time notifications. Admin users can review applications, verify documents, and approve or reject loans.
 
@@ -17,9 +9,9 @@ This project is designed using **Spring Boot Microservices Architecture** with *
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
-### 👤 Applicant Features
+### Applicant Features
 
 * User Registration & Login (JWT based authentication)
 * Create and manage loan applications (Draft → Submit)
@@ -27,7 +19,7 @@ This project is designed using **Spring Boot Microservices Architecture** with *
 * Track loan application status
 * Receive email notifications (submission, approval, rejection)
 
-### 🛠️ Admin Features
+### Admin Features
 
 * View all loan applications
 * Verify uploaded documents
@@ -37,7 +29,7 @@ This project is designed using **Spring Boot Microservices Architecture** with *
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 This system follows a **Microservices Architecture**:
 
@@ -56,7 +48,7 @@ Each service is:
 
 ---
 
-## 🔁 System Flow
+## System Flow
 
 ```
 User → API Gateway → Auth Service (JWT)
@@ -66,7 +58,7 @@ User → API Gateway → Auth Service (JWT)
 
 ---
 
-## 🔄 Loan Application Lifecycle
+## Loan Application Lifecycle
 
 ```
 Draft → Submitted → Docs Pending → Docs Verified → Under Review → Approved / Rejected → Closed
@@ -74,7 +66,7 @@ Draft → Submitted → Docs Pending → Docs Verified → Under Review → Appr
 
 ---
 
-## 🧑‍💻 Tech Stack
+## Tech Stack
 
 ### 🔹 Backend
 
@@ -100,9 +92,9 @@ Draft → Submitted → Docs Pending → Docs Verified → Under Review → Appr
 
 ---
 
-## 📁 Microservices Breakdown
+## Microservices Breakdown
 
-### 🔐 Auth Service
+###  Auth Service
 
 * User signup & login
 * JWT token generation
@@ -110,7 +102,7 @@ Draft → Submitted → Docs Pending → Docs Verified → Under Review → Appr
 
 ---
 
-### 📄 Application Service
+###  Application Service
 
 * Create loan application (Draft)
 * Update application
@@ -119,7 +111,7 @@ Draft → Submitted → Docs Pending → Docs Verified → Under Review → Appr
 
 ---
 
-### 📂 Document Service
+###  Document Service
 
 * Upload documents
 * Replace documents
@@ -127,7 +119,7 @@ Draft → Submitted → Docs Pending → Docs Verified → Under Review → Appr
 
 ---
 
-### 🧑‍💼 Admin Service
+###  Admin Service
 
 * View all applications
 * Verify documents
@@ -136,7 +128,7 @@ Draft → Submitted → Docs Pending → Docs Verified → Under Review → Appr
 
 ---
 
-### 📩 Notification Service
+###  Notification Service
 
 * Sends email notifications:
 
@@ -145,7 +137,7 @@ Draft → Submitted → Docs Pending → Docs Verified → Under Review → Appr
 
 ---
 
-## 🔐 Security
+## Security
 
 * JWT-based authentication
 * Role-based access control using `@PreAuthorize`
@@ -153,7 +145,7 @@ Draft → Submitted → Docs Pending → Docs Verified → Under Review → Appr
 
 ---
 
-## 📡 API Endpoints (Gateway Routes)
+## API Endpoints (Gateway Routes)
 
 ```
 /gateway/auth/*
@@ -164,7 +156,7 @@ Draft → Submitted → Docs Pending → Docs Verified → Under Review → Appr
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 finflow/
@@ -181,15 +173,15 @@ finflow/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Clone Repository
+### Clone Repository
 
 bash
 git clone https://github.com/cse-shivraj-jaiswal/sprint-loan-management-system.git
 
 
-### 2️⃣ Run Services in Order
+### Run Services in Order
 
 1. Eureka Server
 2. API Gateway
@@ -197,7 +189,7 @@ git clone https://github.com/cse-shivraj-jaiswal/sprint-loan-management-system.g
 
 ---
 
-### 3️⃣ Configure Database
+### Configure Database
 
 Update `application.properties` in each service:
 
@@ -207,7 +199,7 @@ spring.datasource.username=root
 spring.datasource.password=your_password
 
 
-### 4️⃣ Run Application
+### Run Application
 
 Use:
 
@@ -217,12 +209,12 @@ mvn spring-boot:run
 
 ---
 
-## 🧪 Testing
+## Testing
 
 * API testing using **Postman**
 * Unit testing using **JUnit & Mockito**
 
-### ✔ End-to-End Flow Tested:
+### End-to-End Flow Tested:
 
 ```
 Login → Apply Loan → Upload Docs → Submit → Admin Review → Decision → Notification
@@ -230,7 +222,7 @@ Login → Apply Loan → Upload Docs → Submit → Admin Review → Decision �
 
 ---
 
-## 📅 Development Roadmap
+## Development Roadmap
 
 * Day 1: Authentication & Setup
 * Day 2: Application Service
@@ -241,7 +233,7 @@ Login → Apply Loan → Upload Docs → Submit → Admin Review → Decision �
 
 ---
 
-## 💡 Future Enhancements
+## Future Enhancements
 
 * Credit Score Integration
 * EMI Calculator
@@ -252,7 +244,7 @@ Login → Apply Loan → Upload Docs → Submit → Admin Review → Decision �
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Microservices architecture design
 * API Gateway implementation
@@ -262,14 +254,14 @@ Login → Apply Loan → Upload Docs → Submit → Admin Review → Decision �
 
 ---
 
-## 🧑‍💼 Author
+## Author
 
 **Shivraj Jaiswal**
 Software Engineer | Java Developer
 
 ---
 
-## ⭐ Conclusion
+## Conclusion
 
 FinFlow demonstrates a complete **end-to-end backend system** with real-world architecture, making it suitable for **industry-level understanding and interviews**.
 
