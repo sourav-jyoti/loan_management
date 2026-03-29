@@ -247,17 +247,5 @@ Login → Apply Loan → Upload Docs → Submit → Admin Review → Decision �
 * Inter-service communication
 * Real-world backend system design
 
----
 
-## Author
 
-**Shivraj Jaiswal**
-Software Engineer | Java Developer
-
----
-
-## Conclusion
-
-FinFlow demonstrates a complete **end-to-end backend system** with real-world architecture, making it suitable for **industry-level understanding and interviews**.
-
----
